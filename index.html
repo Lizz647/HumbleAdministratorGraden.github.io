@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive Website Travel</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Poems</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Scenery</a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="#VIDEO" class="nav__link">Video</a>
+            </li> -->
+          </ul>
+
+          <div class="nav__dark">
+            <!-- Theme change button -->
+            <span class="change-theme-name">Dark mode</span>
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+          </div>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <img src="0.jpeg" alt="" class="home__img" />
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__data-subtitle">DISCOVER YOUR DREAM</span>
+            <h1 class="home__data-title">
+              <b
+                >寻梦<br />
+                苏州</b
+              >
+            </h1>
+            <a href="#about" class="button">Explore</a>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <span class="home__info-title">Beautiful sceneries</span>
+              <a
+                href="#discover"
+                class="button button--flex button--link home__info-button"
+              >
+                More <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="home__info-overlay">
+              <img src="peak.jpeg" alt="" class="home__info-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              拙政园词 <br />
+            </h2>
+            <p class="about__description">
+              灯火平津阁上，莺花拙政园中。五云深处凤栖东，一枕辽西幽梦。
+              苏蕙回文锦字，班家团扇秋风。龙吟鹤和几人同，声压南唐北宋。
+            </p>
+            <a href="ybh/hdsc.html" class="button">拙政园: 溯源</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img src="21.png" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DISCOVER ====================-->
+      <section class="discover section" id="discover">
+        <h2 class="section__title"><br />
+          满园春色
+        </h2>
+
+        <div class="discover__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== DISCOVER 1 ====================-->
+            <div class="discover__card swiper-slide">
+              <a href="ybh/generic1.html">
+                <img
+                src="hqt.png"
+                alt=""
+                class="discover__img"
+              />
+              </a>
+              
+              <div class="discover__data">
+                
+                <h2 class="discover__title">涵青亭</h2>
+                <span class="discover__description">HanQing Ting</span>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 2 ====================-->
+            <div class="discover__card swiper-slide">
+              <a href="ybh/generic4.html"><img
+                src="frx.png"
+                alt=""
+                class="discover__img"
+              /></a>
+            
+              <div class="discover__data">
+                <h2 class="discover__title">芙蓉榭</h2>
+                <span class="discover__description">FuRong Xie</span>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 3 ====================-->
+            <div class="discover__card swiper-slide">
+              <a href="ybh/generic3.html"><img
+                src="13.png"
+                alt=""
+                class="discover__img"
+              /></a>
+              
+              <div class="discover__data">
+                <h2 class="discover__title">辍云峰</h2>
+                <span class="discover__description">Chuoyun Feng</span>
+              </div>
+            </div>
+
+            <!--==================== DISCOVER 4 ====================-->
+            <div class="discover__card swiper-slide">
+              <a href="ybh/generic2.html"><img
+                src="xzhf.png"
+                alt=""
+                class="discover__img"
+              /></a>
+              <div class="discover__data">
+                <h2 class="discover__title">香洲画舫</h2>
+                <span class="discover__description">XiangZhou HuaFang</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== EXPERIENCE ====================-->
+      <section class="experience section">
+        <h2 class="section__title">
+          <br />
+          印象
+        </h2>
+
+        <div class="experience__container container grid">
+          <div class="experience__content grid">
+            <div class="experience__data">
+              <h2 >500</h2>
+              <span class="experience__description"
+                >Years <br />
+            </div>
+
+            <div class="experience__data">
+              <h2 >32</h2>
+              <span class="experience__description"
+                >Owners <br />
+                
+            </div>
+
+            <div class="experience__data">
+              <h2 >78</h2>
+              <span class="experience__description"
+                >Acres <br />
+                
+            </div>
+          </div>
+
+          <div class="experience__img grid">
+            <div class="experience__overlay">
+              <img
+                src="8.jpeg"
+                alt=""
+                class="experience__img-one"
+              />
+            </div>
+
+            <div class="experience__overlay">
+              <img
+                src="7.jpeg"
+                alt=""
+                class="experience__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== VIDEO ====================-->
+      <section class="video section",id="VIDEO">
+        <h2 class="section__title">诞生</h2>
+
+        <div class="video__container container">
+        
+
+          <div class="video__content">
+            <video id="video-file">
+              <source src="introduct.mov" type="video/mp4" />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              大师兄说的队 <br />
+            </h2>
+            <p class="about__description">
+              张博 &nbsp 颜秉浩 &nbsp 张真 &nbsp 余德容 &nbsp 刘轩宇 &nbsp 李咏霜 &nbsp 马永立
+            </p>
+            
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img src="" alt="" class="about__img-one" />
+            </div>
+
+            <div class="about__img-overlay">
+              <img src="21.png" alt="" class="about__img-two" />
+            </div>
+          </div>
+        </div>
+      </section>
+     
+
+      
+
+  
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+
+    
+    
+
+  </body>
+</html>

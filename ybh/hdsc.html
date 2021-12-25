@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>造园特征</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .shell {
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    
+    .shell div {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        font-style: 30px;
+        letter-spacing: 2px;
+        /* align-content: space-between; */
+    }
+    
+    .image {
+        transform: translateZ(-1px) scale(1.4);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    
+    .image2 {
+        transform: translateZ(-1px) scale(1.4);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    
+    .text {
+        height: 400px;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .text h1 {
+        color: #000;
+    }
+    
+    .text #p1 {
+        width: 70%;
+        font-size: 15px;
+    }
+    
+    .text #p2 {
+        width: 76%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .text #p3 {
+        width: 65%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .heading {
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div class="shell">
+
+        <div class="image" style="background-image: url('./6.jpeg');"></div>
+        <div class="heading">
+            <h1>拙政园 造园历史</h1>
+        </div>
+        <div class="text">
+            <h1>
+                永遇乐·拙政园盛会
+            </h1>
+            <br>
+            <br>
+            <p id="p1">
+                南北昆伶，风流人物，姑苏盛会。时值三秋，蟹肥鲈鲜，处处飘香桂。名园生色，游人争看，卅六鸳鸯惊起。听那边，娇声笑语，来了红妆队队。
+            </p>
+
+            <br>
+            <p id="p1">
+                山亭水榭，月窗曲径，盛会今朝当记。琵琶声中，笙歌喧处，花里人如醉。还陪诸传，倾杯赌酒，席畔谈歌论艺。 正年少，流连醉赏，一时豪气。
+            </p>
+
+        </div>
+
+        <div class="image" style="background-image: url('./7.jpg');"></div>
+        <div class="heading">
+            <h1>拙政园 溯源</h1>
+        </div>
+        <div class="text">
+            <p id="p2">拙政园历史十分悠久，最早可以追溯到唐朝。但那时，拙政园仅仅是诗人陆龟蒙的宅园。</p>
+            <br/>
+            <p id="p2">明弘治年间，进士王献臣官场失意，退而归隐到苏州，聘请当时著名的画家文征明帮自己设计了一张园林蓝图。历经十六年，园子得以竣工。拙政园建成不久，王献臣便去世了。他的儿子再一次赌博中，把园子输给了一个徐姓人士。在余后的四百年中，拙政园屡换主人。最悲惨的时候，曾被分为三个部分。</p>
+
+            <br/>
+            <p id="p3">他们有时是私家园林，有时成为地方官办公地，有时又变为民居。直到20世纪50年代，三个分割的园区才合并为一园，恢复旧名拙政园。但东部的“归田园居”早已荒废，即便重修改造，如今只剩下现代的草坪景观，也难以领略当年风采了。</p>
+
+        </div>
+
+        <div class="image" style="background-image: url('./8.jpeg');"></div>
+        <div class="heading">
+            <h1>拙政园 演变</h1>
+        </div>
+        <div class="text">
+            <p id="p2">
+                乾隆初年，拙政园东部园林以西又分割成中、西两个部分，其中，西部现有布局形成于光绪三年（1877年），由张履谦修葺，改名“补园”。遂有塔影亭、留听阁、浮翠阁、笠亭、与谁同坐轩、宜两亭等景观。又新建三十六鸳鸯馆和十八曼陀罗花馆，装修精致奢丽；中部是拙政园最精彩的部分。虽历经变迁，与早期拙政园有较大变化和差异，但园林以水为主，池中堆山，环池布置堂、榭、亭、轩，基本上延续了明代的格局。
+            </p>
+        </div>
+
+        <div class="image" style="background-image: url('./10.jpeg');"></div>
+        <div class="heading">
+            <h1>拙政园 现今</h1>
+        </div>
+        <div class="text">
+            <p id="p2">拙政园的园林艺术，在中国造园史上具有重要的地位。它代表了江南私家园林一个历史阶段的特点和成就。苏州园林不仅是历史文化的产物，更是中国传统思想文化的表现。从园林中的命名，楹联，雕刻，窗格以及花木寓情等便可一窥其二。它所主载的更多的是各朝各代的历史，思想以及文化背景。</p>
+        </div>
+
+        <div class="image2" style="background-image: url('./9.jpg');"></div>
+
+    </div>
+</body>
+
+</html>
